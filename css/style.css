@@ -21,7 +21,7 @@
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 35px;
     color: #031540;
     text-decoration: none;
     font-weight: 700;
@@ -129,6 +129,7 @@
     position: relative;
     bottom: 120px;
     max-width: 500px;
+    border-radius: 44%;
 }
 
 .btn {
