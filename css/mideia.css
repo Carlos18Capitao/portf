@@ -1,0 +1,78 @@
+@media (max-width: 425px) {
+    .home {
+        display: grid;
+        margin-top: 40px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40vh 60vh;
+    }
+
+.logo {
+    display: none;
+}
+    
+    .home-image {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        border: 10px solid #ffff;
+        outline: 15px solid #031540;
+    }
+
+    .home-image img {
+        position: inherit;
+        width: 250px;
+        height: 350px;
+        margin-bottom: -120px;
+    }
+
+    .home-content {
+        text-align: center;
+    }
+
+    .home-content h1 {
+        margin-top: 10px;
+        font-size: 29px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .home-content h3 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .home-content p {
+        text-align: center;
+    }
+
+    .btn {
+        color: #fff;
+        background: #031540;
+        box-shadow: 0 0 5px #00abf0;
+        animation: pisca infinite 10s linear;
+    }
+
+    @keyframes pisca{
+        /*0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92% */
+        0%
+        {
+            box-shadow: 0 0 5px #031540;
+        }
+        25% {
+            box-shadow: 0 0 10px #00abf0;
+        }
+        50%{
+            box-shadow: 0 0 20px #00abf0;
+        }
+        /*18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%*/ 
+        75% {
+            box-shadow: 0 0 40px #00abf0;
+        }
+        
+        100%
+        {
+            box-shadow: 0 0 80px #00abf0;
+        }
+    }
+
+}
