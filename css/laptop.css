@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+    .home {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-content: space-around;
+        padding: 0 2%;
+    }
+
+    .home-image {
+        position: relative;
+        width: 400px;
+        height: 400px;
+        outline: 9px solid #031540;
+    }
+
+    .home-image img {
+        height: 550px;
+        width: 400px;
+        bottom: 100px;
+    }
+
+    .home-content {
+        text-align: center;
+        margin: 0;
+    }
+
+    .home-content h1 {
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    .home-content h3 {
+        font-size: 22px;
+    }
+}
